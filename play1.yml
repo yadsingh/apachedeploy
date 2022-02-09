@@ -1,0 +1,5 @@
+---
+ - hosts: webserver
+   tasks:
+           - debug:
+                   msg: this is first play
