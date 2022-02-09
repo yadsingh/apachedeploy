@@ -3,4 +3,7 @@
    tasks:
            - debug:
                    msg: this is first play
-                   msg: thus susfuen 
+                   msg: thus susfuen
+           - file:
+                path:  /tmp
+                state: touch              
